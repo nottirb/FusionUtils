@@ -1,0 +1,11 @@
+[package]
+name = "nottirb/fusion-utils"
+version = "0.1.0-beta"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+include = ["src", "src/**", "default.project.json", "wally.toml", "LICENSE"]
+exclude = ["**", "*/**"]
+
+[dependencies]
+Fusion = "nottirb/fusion-test@0.1.2-beta"
