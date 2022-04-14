@@ -108,7 +108,7 @@ function WrappedFusion.Statify(stateOrValue)
 	return Fusion.Computed(function()
 		return stateOrValue
 	end)
-	
+
 	--[[{
 		type = "State",
 		kind = "Constant",
